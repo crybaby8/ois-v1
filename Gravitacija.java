@@ -7,7 +7,7 @@ public class Gravitacija{
         int v = sc.nextInt();
         System.out.println(((6.674E-11) * 
         (5.972E24))/((6.371E6) + v * v));
-        
+        System.out.println(v);
 	}
 }
     
